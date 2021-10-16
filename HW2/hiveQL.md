@@ -72,6 +72,7 @@ INNER JOIN popular_tags ON t.tag = popular_tags.tag
 ORDER BY t.listeners_lastfm DESC
 LIMIT 10;
 ```
+![q3](https://user-images.githubusercontent.com/59476789/137592458-d3a23603-33cc-420f-9c64-8b82167f35d2.PNG)
 
 d) Любой другой инсайт на ваше усмотрение - 10 баллов
 
@@ -86,3 +87,5 @@ WHERE country_lastfm = 'Russia' AND tag = 'rock'
 ORDER BY listeners_lastfm DESC
 LIMIT 5;
 ```
+![q4](https://user-images.githubusercontent.com/59476789/137592463-25e882f5-d645-4e6c-96f2-fcbab3f64b5e.PNG)
+
