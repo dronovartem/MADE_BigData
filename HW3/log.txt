@@ -1,3 +1,3 @@
 Train loss: 6.002657726653881
-Train loss: 4.32262188898315
+Valid loss: 4.32262188898315
 Predictions for test data were written at output.csv

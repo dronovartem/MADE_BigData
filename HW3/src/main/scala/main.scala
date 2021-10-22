@@ -69,7 +69,7 @@ object main {
 
     preds = model.predict(x_valid)
     model_loss = model.mse_loss(preds, y_valid)
-    pw.write("Train loss: " + model_loss + "\n")
+    pw.write("Valid loss: " + model_loss + "\n")
 
     preds = model.predict(test_data)
     csvwrite(fout, preds.toDenseMatrix.t)
